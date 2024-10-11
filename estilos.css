@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.beige {
+    background-color: beige;
+    height: 10vh
+}
+
+.negro {
+    background-color: black;
+    height: 10vh;
+
+}
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+  .animate__animated.animate__backInDown {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+  .footer {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    padding-right: 5px;
+  }
+
